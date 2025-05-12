@@ -108,9 +108,9 @@ Routing	React Router DOM
 
 📷 Screenshots
 | Desktop View |--------------|-------------| 
-![Desktop View](assets/1.png)
-![Desktop View](assets/2.png)
-![Desktop View](assets/3.png)
+![Desktop View](frontend/assets/1.png)
+![Desktop View](frontend/assets/2.png)
+![Desktop View](frontend/assets/3.png)
 
 
 🙌 Author
