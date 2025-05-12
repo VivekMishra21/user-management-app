@@ -1,10 +1,9 @@
 📋 User Management System (React + Java Spring Boot)
+
+
 This is a User Management Web Application built with:
-
 Frontend: React.js
-
 Backend: Java Spring Boot (connected via REST APIs)
-
 Database: MySQL
 
 This is a User Management Web Application built with React for the frontend and connected to a backend Java Spring Boot via REST APIs. The app allows to search, filter, view, add, edit, and delete users, with features like "Search by phone", "Search by name", and "Today's registered users".
@@ -115,5 +114,5 @@ Routing	React Router DOM
 
 🙌 Author
 Vivek Kumar Mishra
-GitHub • LinkedIn
+
 
