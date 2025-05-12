@@ -25,30 +25,38 @@ This is a User Management Web Application built with React for the frontend and 
 1. Display Users
 Fetches all users from backend using getAllUsers().
 Displays users in a responsive table with actions for edit/delete.
-2. Search By Phone
+
+3. Search By Phone
 Input field to enter a phone number.
 Calls the findByPhoneNumber() API.
 If found, displays that specific user.
-3. Search By Name
+
+4. Search By Name
 Input field to search by name.
 Calls the findByName() API.
 If found, displays that specific user.
-4. Today’s Registered Users
+
+5. Today’s Registered Users
 Button that fetches users registered today using getTodayRegisteredUsers().
-5. Add User
+
+6. Add User
 Navigates to /add route.
 A form to enter name, email, and phone number.
 On submission, sends data to backend and saves new user.
-6. Edit User
+
+7. Edit User
 Clicking edit opens /edit/:id page.
 Pre-fills user data.
 Allows updating user details and sends a PUT/PATCH request to backend.
-7. Delete User
+
+8. Delete User
 Deletes a user by ID using deleteUser().
 🛠️ Tech Stack
 Frontend: React, Bootstrap 5, React Router, Axios
 Backend: java, Spring Boot
 State Management: React useState, useEffect
+
+
 📁 Project Structure
 📂 src/
   ├── 📂 components/
@@ -57,6 +65,8 @@ State Management: React useState, useEffect
   │     └── userService.js       # API calls (CRUD)
   ├── App.js
   ├── index.js
+
+
 🌐 Responsive UI
 Designed with Bootstrap and Flexbox (d-flex, gap-2, table-responsive, etc.)
 Works well on mobile screens (tested on same WiFi via IP)
@@ -72,6 +82,7 @@ npm start
 Make sure your mobile and computer are on the same Wi-Fi.
 
 📡 API Endpoints Used
+
 These are assumed API endpoints (adjust based on your actual backend):
 
 Action	Endpoint	Method
@@ -82,6 +93,9 @@ Add user	/users	POST
 Edit user	/users/{id}	PUT
 Delete user	/users/{id}	DELETE
 Today’s registered	/users/today	GET
+
+
+
 🔧 Tech Stack
 Layer	Technology
 Frontend	React.js
@@ -90,8 +104,14 @@ Backend	Spring Boot
 State Handling	React Hooks
 HTTP Client	Axios
 Routing	React Router DOM
+
+
 📷 Screenshots
-| Desktop View |--------------|-------------| | Desktop Desktop Desktop
+| Desktop View |--------------|-------------| 
+![Desktop View](assets/1.png)
+![Desktop View](assets/2.png)
+![Desktop View](assets/3.png)
+
 
 🙌 Author
 Vivek Kumar Mishra
